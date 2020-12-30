@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="centos 7安装dockers 1、yum update(可不操作)  2、安装依赖包  yum install -y yum-utils device-mapper-persistent-data lvm2  3、设置yum源 docker源仓库 yum-config-manager --add-repo http:&#x2F;&#x2F;download.docker.com&#x2F;linux&#x2F;centos&#x2F;doc">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://example.com/2020/12/30/centos%207%E5%AE%89%E8%A3%85dockers/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="centos 7安装dockers 1、yum update(可不操作)  2、安装依赖包  yum install -y yum-utils device-mapper-persistent-data lvm2  3、设置yum源 docker源仓库 yum-config-manager --add-repo http:&#x2F;&#x2F;download.docker.com&#x2F;linux&#x2F;centos&#x2F;doc">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="c:/Users/ethan/AppData/Roaming/Typora/typora-user-images/image-20201029100319801.png">
+<meta property="og:image" content="c:/Users/ethan/AppData/Roaming/Typora/typora-user-images/image-20201029100539654.png">
+<meta property="og:image" content="c:/Users/ethan/AppData/Roaming/Typora/typora-user-images/image-20201029100826816.png">
+<meta property="og:image" content="c:/Users/ethan/AppData/Roaming/Typora/typora-user-images/image-20201029101039713.png">
+<meta property="og:image" content="c:/Users/ethan/AppData/Roaming/Typora/typora-user-images/image-20201029101212507.png">
+<meta property="og:image" content="c:/Users/ethan/AppData/Roaming/Typora/typora-user-images/image-20201029101625400.png">
+<meta property="og:image" content="c:/Users/ethan/AppData/Roaming/Typora/typora-user-images/image-20201029102108253.png">
+<meta property="og:image" content="c:/Users/ethan/AppData/Roaming/Typora/typora-user-images/image-20201029102432726.png">
+<meta property="article:published_time" content="2020-12-30T03:00:09.622Z">
+<meta property="article:modified_time" content="2020-10-29T02:57:06.980Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="c:/Users/ethan/AppData/Roaming/Typora/typora-user-images/image-20201029100319801.png">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+<meta name="generator" content="Hexo 5.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-centos 7安装dockers" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2020/12/30/centos%207%E5%AE%89%E8%A3%85dockers/" class="article-date">
+  <time class="dt-published" datetime="2020-12-30T03:00:09.622Z" itemprop="datePublished">2020-12-30</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>centos 7安装dockers</p>
+<p>1、<code>yum update</code>(可不操作)</p>
+<p><img src="C:\Users\ethan\AppData\Roaming\Typora\typora-user-images\image-20201029100319801.png" alt="image-20201029100319801"></p>
+<p>2、安装依赖包 </p>
+<p><code>yum install -y yum-utils device-mapper-persistent-data lvm2</code></p>
+<p><img src="C:\Users\ethan\AppData\Roaming\Typora\typora-user-images\image-20201029100539654.png" alt="image-20201029100539654"></p>
+<p>3、设置yum源</p>
+<p>docker源仓库</p>
+<p><code>yum-config-manager --add-repo http://download.docker.com/linux/centos/docker-ce.repo</code></p>
+<p>阿里仓库</p>
+<p><code>yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo</code></p>
+<p><img src="C:\Users\ethan\AppData\Roaming\Typora\typora-user-images\image-20201029100826816.png" alt="image-20201029100826816"></p>
+<p>4、查看仓库内docker版本，选择一个安装</p>
+<p><code>yum list docker-ce --showduplicates | sort -r</code></p>
+<p><img src="C:\Users\ethan\AppData\Roaming\Typora\typora-user-images\image-20201029101039713.png" alt="image-20201029101039713"></p>
+<p>yum install docker-ce-版本号</p>
+<p><code>yum install docker-ce-18.03.1.ce</code> </p>
+<p><img src="C:\Users\ethan\AppData\Roaming\Typora\typora-user-images\image-20201029101212507.png" alt="image-20201029101212507"></p>
+<p>一路选 y </p>
+<p><img src="C:\Users\ethan\AppData\Roaming\Typora\typora-user-images\image-20201029101625400.png" alt="image-20201029101625400"></p>
+<p>5、启动docker，并加入开机自启</p>
+<p><code>systemctl start docker</code></p>
+<p><code>systemctl enable docker</code></p>
+<p><img src="C:\Users\ethan\AppData\Roaming\Typora\typora-user-images\image-20201029102108253.png" alt="image-20201029102108253"></p>
+<p>完成</p>
+<p><img src="C:\Users\ethan\AppData\Roaming\Typora\typora-user-images\image-20201029102432726.png" alt="image-20201029102432726"></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2020/12/30/centos%207%E5%AE%89%E8%A3%85dockers/" data-id="ckjau46r40008bwexh5w640qr" data-title="" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2020/12/30/centos7%E5%AE%89%E8%A3%85msf/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          (no title)
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2020/12/30/bluecms%E9%83%A8%E7%BD%B2%E2%80%94%E2%80%94%E5%AE%89%E8%A3%85%E9%A1%B5%E9%9D%A2%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8%E6%98%BE%E7%A4%BA/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title"></div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/12/">December 2020</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2020/12/30/VPS%EF%BC%88centos7%EF%BC%89%E5%AE%89%E8%A3%85Cobalt%20Strike/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2020/12/30/Ubuntu%E5%AE%89%E8%A3%85burp%20suite/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2020/12/30/ThinkPHP%E6%A1%86%E6%9E%B65.x%E7%89%88%E6%9C%AC%E8%BF%9C%E7%A8%8B%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%EF%BC%88ThinkPHP%205.0.10%EF%BC%89/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2020/12/30/Nessus%E9%85%8D%E7%BD%AE%E9%9D%99%E6%80%81ip/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2020/12/30/DNS%E5%9F%9F%E4%BC%A0%E8%BE%93%E6%BC%8F%E6%B4%9E/">(no title)</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2020 John Doe<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.4.1.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
